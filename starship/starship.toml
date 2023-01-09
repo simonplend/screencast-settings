@@ -1,9 +1,10 @@
-format = """
-$directory\
-$nodejs\
-$line_break\
-$character"""
-
 [character]
-success_symbol = '[\$](bold green)'
-error_symbol = '[\$](bold red)'
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+
+[status]
+disabled = false
+format = "[$symbol $status]($style) "
+
+[time]
+disabled = true

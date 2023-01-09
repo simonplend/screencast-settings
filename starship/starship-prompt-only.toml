@@ -1,0 +1,5 @@
+format = "$character"
+
+[character]
+success_symbol = '[\$](bold white)'
+error_symbol = '[\$](bold white)'
