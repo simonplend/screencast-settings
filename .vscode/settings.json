@@ -49,7 +49,10 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         ".vscode": true,
-        "node_modules": false
+        "node_modules": false,
+        "package-lock.json": true,
+        "seed.js": true,
+        "README.md": true
     },
 
     // Screencast mode settings
@@ -58,5 +61,14 @@
 
     // Extension settings
     "gitlens.mode.active": "zen",
+
+    // Terminal settings
+    // "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "workbench.panel.defaultLocation": "right",
+
+    // Git settings
+    "git.enabled": false,
+    "git.decorations.enabled": false,
 }
 
